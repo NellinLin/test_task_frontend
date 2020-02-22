@@ -1,5 +1,10 @@
-import './css/index.css';
-import {b} from './components/comp1.js';
-// import template from './components/comp1.hbs';
+import PhoneMaskComponent from './components/PhoneMaskComponent.js';
 
-console.log(b);
+const app = document.getElementById('test');
+const phone = new PhoneMaskComponent(app, '+7(985)0');
+phone.render();
+console.log(phone.checkMask('dddd'));
+console.log(phone.checkMask('+7(985)0'));
+
+phone.mask = '+7(985)0II-**-X';
+phone.render();
