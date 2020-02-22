@@ -1,6 +1,5 @@
 import './css/index.css';
+import {b} from './components/comp1.js';
+// import template from './components/comp1.hbs';
 
-// alert('i`m here');
-const test = document.getElementById('test');
-test.innerHTML = 'Hello world!';
-test.className = 'hello';
+console.log(b);

@@ -7,11 +7,20 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.(js)$/,
+                exclude: /node_modules/,
+                use: ['babel-loader', 'eslint-loader']
+            },
+            {
                 test: /\.css$/,
                 use: ExtractTextPlugin.extract({
                     fallback: 'style-loader',
                     use: ['css-loader']
                 })
+            },
+            {
+                test: /\.hbs$/,
+                loader: "handlebars-loader",
             },
         ]
     },
