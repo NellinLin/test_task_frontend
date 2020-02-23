@@ -7,7 +7,8 @@
     "build": "webpack",
     "test": "jest --coverage",
     "storybook": "start-storybook",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "webpack && node server.js"
   },
   "repository": {
     "type": "git",

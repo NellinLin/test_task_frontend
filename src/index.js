@@ -6,6 +6,4 @@ phone.render();
 
 phone.mask = '+7(906I)-II-*X';
 phone.render();
-console.log(phone.checkMask('+7(906)--*X'));
-
-phone.mask = [12, 22];
+phone.checkMask('+7(906)--*X');
