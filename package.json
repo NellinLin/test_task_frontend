@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "build": "webpack",
-    "test": "jest",
+    "test": "jest --coverage",
     "storybook": "start-storybook",
     "start": "node server.js"
   },
