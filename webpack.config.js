@@ -18,10 +18,6 @@ module.exports = {
                     use: ['css-loader']
                 })
             },
-            {
-                test: /\.hbs$/,
-                loader: "handlebars-loader",
-            },
         ]
     },
     resolve: {
