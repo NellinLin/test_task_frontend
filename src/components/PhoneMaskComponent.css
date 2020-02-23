@@ -1,3 +1,8 @@
+.phone-mask-create-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .phone-container {
     display: flex;
     flex-direction: row;
@@ -10,6 +15,10 @@
     box-sizing: border-box;
     border-radius: 2px;
     text-align: center;
+}
+
+.phone-container__input_error {
+    border: 1px solid #FF1100;
 }
 
 .phone-container__input:hover {
@@ -31,7 +40,7 @@
 }
 
 .text {
-    font-family: ArialMT;
+    font-family: ArialMT, sans-serif;
     font-size: 15px;
     line-height: 18px;
     color: #333333;
@@ -46,4 +55,15 @@
 
 .margin {
     margin: 0 2px 0 2px;
+}
+
+.error-container {
+    font-family: ArialMT, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FF1100;
+}
+
+.error-container_invisible {
+    display: none;
 }
