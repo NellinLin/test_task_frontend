@@ -54,7 +54,8 @@ export default class PhoneMaskComponent {
         this._mask.forEach((elem, index) => {
             switch (elem) {
             case 'I':
-                phoneField.innerHTML += `<input maxlength="1" data-index="${index}" class="phone-container__input text block-size margin">`;
+                phoneField.innerHTML += `<input maxlength="1" data-index="${index}" placeholder="_"
+                                        class="phone-container__input text block-size margin">`;
                 break;
             case '*':
                 phoneField.innerHTML += `<div class="phone-container__number text block-size margin">●</div>`;

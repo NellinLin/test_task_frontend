@@ -57,6 +57,10 @@
     margin: 0 2px 0 2px;
 }
 
+.margin-for-test {
+    margin-top: 20px;
+}
+
 .error-container {
     font-family: ArialMT, sans-serif;
     font-size: 13px;
