@@ -79,6 +79,8 @@ export default class PhoneMaskComponent {
 
     /**
      * Check mask
+     * @description Reads the phone number from the rendered component
+     * and compares it with the entered value
      * @param {string} answer
      * @return {boolean}
      */
@@ -101,6 +103,7 @@ export default class PhoneMaskComponent {
 
     /**
      * Get phone number
+     * @description Reads the phone number from the rendered component
      * @return {string}
      */
     getPhoneNumber() {
