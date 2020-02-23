@@ -1,5 +1,5 @@
 # Тестовое задание
-Автор: Шишова Анастасия
+Задание: https://www.notion.so/9f0c4e35aba94ba991790f6e2ba30c41
 
 ## Установка и запуск
 ```
@@ -27,3 +27,6 @@ npm run test      | Прохождение функционального тес
 * Docker
 * Jest
 * Storybook
+
+## Автор
+[Шишова Анастасия](https://github.com/NellinLin)
